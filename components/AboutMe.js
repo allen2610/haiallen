@@ -5,7 +5,7 @@ import Image from 'next/image'
 const AboutMe = () => {
   return (
     <div id= "about" className='w-full my-36 flex items-center justify-center'>
-        <div className='p-16 rounded-xl bg-[#F5EEE6] flex flex-col gap-5 max-w-[800px]'>
+        <div className='p-16 rounded-xl bg-gradient-to-br from-pink-100 to-blue-100 flex flex-col gap-5 max-w-[800px]'>
             <h2 className='font-bold text-xl text-[#E6A4B4]'>
                 About Me
             </h2>

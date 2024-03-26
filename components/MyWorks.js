@@ -27,7 +27,7 @@ const data = [
 
 const MyWorks = () => {
   return (
-    <div id= "myworks" className=' space-y-10 flex flex-col items-center'>
+    <div id= "myworks" className='p-20 space-y-10 flex flex-col items-center bg-gradient-to-br from-pink-100 via-purple-100 to-blue-100'>
         <h1 className='font-bold text-4xl'>
             My Works
         </h1>
@@ -35,7 +35,7 @@ const MyWorks = () => {
             {
                 data.map((item) => {
                     return (
-                        <div key={item.id} className='text-black bg-[#F5EEE6] max-w-[300px] rounded-md'>
+                        <div key={item.id} className='shadow-md text-black bg-white/50 max-w-[300px] rounded-md'>
                             <div className='rounded-t-md overflow-hidden'>
                                 <Image
                                     src = {item.src}
@@ -43,7 +43,7 @@ const MyWorks = () => {
                                     height = {300}
                                 />
                             </div>
-                            <p className='p-2.5 text-center'>
+                            <p className='p-2.5 text-center font-semibold'>
                                 {item.title}
                             </p>
                             
