@@ -4,7 +4,7 @@ const Navbar = () => {
             <h1 className="poppins-extrabold-italic text-2xl bg-gradient-to-r bg-clip-text text-transparent from-pink-400 to-purple-400">
                 Allen.
             </h1>
-            <nav className="flex gap-x-12 font-semibold">
+            <nav className="flex gap-x-12 font-semibold text-sm">
                 <a href="/">Home</a>
                 <a href="#about">About</a>
                 <a href="#myworks">My Works</a>
